@@ -23,7 +23,10 @@ import {
   jobit,
   tripguide,
   threejs,
+  
 } from "../assets";
+
+import aws from '../assets/tech/awsb.png'
 
 export const navLinks = [
   {
@@ -109,8 +112,8 @@ const technologies = [
     icon: figma,
   },
   {
-    name: "docker",
-    icon: docker,
+    name: "aws",
+    icon: aws,
   },
 ];
 
