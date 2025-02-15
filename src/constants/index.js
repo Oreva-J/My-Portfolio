@@ -201,9 +201,9 @@ const testimonials = [
 
 const projects = [
   {
-    name: "Car Rent",
+    name: "StockPilot",
     description:
-      "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
+      "Inventory & Stock Management Solution. A Web-based platform that allows Businesses to control and manage products in the warehouse in real time and to make it easier to scale and monitor business",
     tags: [
       {
         name: "react",
@@ -216,6 +216,10 @@ const projects = [
       {
         name: "tailwind",
         color: "pink-text-gradient",
+      },
+      {
+        name: "Express",
+        color: "blue-text-gradient",
       },
     ],
     image: carrent,
