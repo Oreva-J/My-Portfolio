@@ -9,6 +9,7 @@ import Tech from './components/Tech'
 import Feedbacks from './components/Feedbacks'
 import Contact from './components/Contact'
 import Stars from './components/canvas/Stars'
+import Footer from './components/Footer'
 const App = () => {
   return (
     <BrowserRouter>
@@ -22,10 +23,11 @@ const App = () => {
         <Tech />
         <Works />
         <Feedbacks />
-        <div className='relaive z-0'>
+        <div className='relative z-0'>
           <Contact />
           <Stars />
         </div>
+        <Footer />
       </div>
       
     </BrowserRouter>

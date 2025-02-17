@@ -28,6 +28,13 @@ import {
 
 import aws from '../assets/tech/awsb.png'
 
+export const socialIcons = [
+  {icon: figma, link: '/' },
+  {icon: docker, link: '/' },
+  {icon: threejs, link: '/' },
+  {icon: git, link: '/' },
+]
+
 export const navLinks = [
   {
     id: "about",
@@ -175,26 +182,26 @@ const experiences = [
 const testimonials = [
   {
     testimonial:
-      "I thought it was impossible to make a website as beautiful as our product, but Rick proved me wrong.",
-    name: "Sara Lee",
-    designation: "CFO",
-    company: "Acme Co",
+      "From UI design to backend architecture, Oreva demonstrated outstanding technical ability. Their problem-solving skills and dedication made all the difference for our team.",
+    name: "Ruth Reff",
+    designation: "CEO",
+    company: "Rutharine",
     image: "https://randomuser.me/api/portraits/women/4.jpg",
   },
   {
     testimonial:
-      "I've never met a web developer who truly cares about their clients' success like Rick does.",
-    name: "Chris Brown",
-    designation: "COO",
-    company: "DEF Corp",
+      "Professional, reliable, and highly skilled! Oreva delivered our project on time and provided valuable insights that improved our platform’s performance and scalability.",
+    name: "Mudi Spooky ",
+    designation: "Chief Manager",
+    company: "DRCi",
     image: "https://randomuser.me/api/portraits/men/5.jpg",
   },
   {
     testimonial:
-      "After Rick optimized our website, our traffic increased by 50%. We can't thank them enough!",
-    name: "Lisa Wang",
+      "If you need a developer who truly understands how to build robust and user-friendly applications, Oreva is the one. Their work on our inventory management system was nothing short of excellent!",
+    name: "Emmanuel Jude",
     designation: "CTO",
-    company: "456 Enterprises",
+    company: "403 Enterprises",
     image: "https://randomuser.me/api/portraits/women/6.jpg",
   },
 ];

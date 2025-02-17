@@ -64,7 +64,7 @@ const ComputersCanvas = () => {
     >
       <Suspense fallback={<CanvasLoader />}>
         <OrbitControls
-          
+          enableZoom={false}
         />
         <Computers isMobile={isMobile} />
       </Suspense>
