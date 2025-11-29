@@ -1,6 +1,4 @@
-import React from 'react'
 import { navLinks, socialIcons } from '../constants'
-import DIcon from './DIcon'
 import { FaFacebook, FaInstagram, FaLinkedin } from 'react-icons/fa'
 import { FaX } from 'react-icons/fa6'
 
