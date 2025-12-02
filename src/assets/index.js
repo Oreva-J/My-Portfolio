@@ -1,5 +1,3 @@
-import logo from "./logo.svg";
-import Logo2 from "./Logo2.png";
 import backend from "./backend.png";
 import creator from "./creator.png";
 import mobile from "./mobile.png";
@@ -17,23 +15,28 @@ import javascript from "./tech/javascript.png";
 import mongodb from "./tech/mongodb.png";
 import nodejs from "./tech/nodejs.png";
 import reactjs from "./tech/reactjs.png";
-import redux from "./tech/redux.png";
+
 import tailwind from "./tech/tailwind.png";
 import typescript from "./tech/typescript.png";
 import threejs from "./tech/threejs.svg";
+import terraformLogo from "./tech/terraformLogo.png";
+import jenkinsLogo from "./tech/jenkinsLogo.png";
 
-import meta from "./company/meta.png";
-import shopify from "./company/shopify.png";
-import starbucks from "./company/starbucks.png";
-import tesla from "./company/tesla.png";
 
-import carrent from "./carrent.png";
-import jobit from "./jobit.png";
-import tripguide from "./tripguide.png";
+import chartbar from "./company/chart-bar.png";
+import ace from "./company/ACE_NBG.png";
+import pchat from "./company/PchatNBG.png";
+import jobai from "./company/jobAI-logo.png";
+import jobaii from "./company/jobAI-logoo.png";
+
+import reviewSenseEdit from "./reviewSenseEdit.png";
+import JobaiShot from "./JobaiShotEdit.png";
+import aceShot from "./aceShotEdith.png";
+import ACEshot from "./ACEshot.png";
+import OcyanLogo from "./OcyanLogo.png";
+
 
 export {
-  logo,
-  Logo2,
   backend,
   creator,
   mobile,
@@ -50,15 +53,19 @@ export {
   mongodb,
   nodejs,
   reactjs,
-  redux,
   tailwind,
   typescript,
   threejs,
-  meta,
-  shopify,
-  starbucks,
-  tesla,
-  carrent,
-  jobit,
-  tripguide,
+  chartbar,
+  ace,
+  pchat,
+  jobai,
+  jobaii,
+  terraformLogo,
+  jenkinsLogo,
+  reviewSenseEdit,
+  JobaiShot,
+  aceShot,
+  ACEshot,
+  OcyanLogo,
 };

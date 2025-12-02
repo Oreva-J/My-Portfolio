@@ -6,34 +6,34 @@ import {
   javascript,
   typescript,
   html,
-  css,
   reactjs,
-  redux,
   tailwind,
   nodejs,
   mongodb,
   git,
   figma,
   docker,
-  meta,
-  starbucks,
-  tesla,
-  shopify,
-  carrent,
-  jobit,
-  tripguide,
+  chartbar,
+  ace,
+  pchat,
+  jobaii,
   threejs,
-  
+  terraformLogo,
+  jenkinsLogo,
+  reviewSenseEdit,
+  JobaiShot,
+  aceShot,
+  ACEshot,
 } from "../assets";
 
-import aws from '../assets/tech/awsb.png'
+import aws from "../assets/tech/awsb.png";
 
 export const socialIcons = [
-  {icon: figma, link: '/' },
-  {icon: docker, link: '/' },
-  {icon: threejs, link: '/' },
-  {icon: git, link: '/' },
-]
+  { icon: figma, link: "/" },
+  { icon: docker, link: "/" },
+  { icon: threejs, link: "/" },
+  { icon: git, link: "/" },
+];
 
 export const navLinks = [
   {
@@ -56,7 +56,7 @@ const services = [
     icon: web,
   },
   {
-    title: "React Native Developer",
+    title: "AI Generalist",
     icon: mobile,
   },
   {
@@ -75,8 +75,8 @@ const technologies = [
     icon: html,
   },
   {
-    name: "CSS 3",
-    icon: css,
+    name: "Terraform",
+    icon: terraformLogo,
   },
   {
     name: "JavaScript",
@@ -91,8 +91,8 @@ const technologies = [
     icon: reactjs,
   },
   {
-    name: "Redux Toolkit",
-    icon: redux,
+    name: "jenkins",
+    icon: jenkinsLogo,
   },
   {
     name: "Tailwind CSS",
@@ -126,55 +126,59 @@ const technologies = [
 
 const experiences = [
   {
-    title: "React.js Developer",
-    company_name: "Starbucks",
-    icon: starbucks,
+    title: "FullStack Developer",
+    company_name: "Review Sense",
+    icon: chartbar,
     iconBg: "#383E56",
-    date: "March 2020 - April 2021",
+    date: " July 2025 - Oct 2025",
+    link: "https://review-sense-pro.vercel.app/",
     points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
+      "Full-stack web application featuring AI-powered review summarization, real-time analytics dashboards, and comprehensive admin panel.",
+      "Built with React, TypeScript, Express, Prisma, and PostgreSQL. Deployed on Vercel and Render serving 50+ products and 500+ reviews.",
+      "Integrated OpenAI for intelligent review summarization, reducing analysis time by 80%",
       "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
     ],
   },
   {
-    title: "React Native Developer",
-    company_name: "Tesla",
-    icon: tesla,
+    title: "React Next.Js Developer",
+    company_name: "ACE-Pharmacy",
+    icon: ace,
     iconBg: "#E6DEDD",
-    date: "Jan 2021 - Feb 2022",
+    date: "Jan 2025 - June 2025",
+    link: "https://acepharmacy.vercel.app/",
     points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
+      "A Next.Js e-commerce web application for a pharmacy firm to sell physical products and offer paid consultations.",
+      "Integrate and develop a prescription management system that helps both the patient and pharmacy firm keeps track of the recommended drug prescribed",
       "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
+      "Added features for blog management, order processing, and service booking.",
     ],
   },
   {
-    title: "Web Developer",
-    company_name: "Shopify",
-    icon: shopify,
+    title: "Express | AI Chatbot",
+    company_name: "Pharmacy Chatbot",
+    icon: pchat,
     iconBg: "#383E56",
-    date: "Jan 2022 - Jan 2023",
+    date: "sept 2024 - Nov 2024",
+    link: "https://pharmacy-chat-pro.vercel.app/",
     points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
+      "An intelligent chatbot for a pharmaceutical e-commerce platform using React and TypeScript, providing 24/7 customer support for medication inquiries and prescription services",
+      "Engineered a RESTful API with Express.js integrating OpenAI's GPT model with custom prompt engineering to deliver accurate, HIPAA-compliant pharmaceutical information.",
+      "Architected a full-stack monorepo using Bun, React 19, Express, and serverless deployment",
+      "Designed responsive UI with React Hook Form and Tailwind CSS, featuring real-time chat, auto-resizing inputs, and animated pharmacy-themed backgrounds",
     ],
   },
   {
-    title: "Full stack Developer",
-    company_name: "Meta",
-    icon: meta,
+    title: "AI Career Guardian system",
+    company_name: "Job-AI",
+    icon: jobaii,
     iconBg: "#E6DEDD",
     date: "Jan 2023 - Present",
+    link: "https://job-ai-dvzd.vercel.app/",
     points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
+      "A JavaScript, Next.js, PostgreSQL, Tailwind, Shacdn UI, Clerk auth, Node.js, Docker and Germini AI API project.",
+      "A Roburst AI data-driven career guidance system that helps users make updated/informed professional decisions.",
+      "A fully functional AI-powered platform that assists users in job searching, resume building, and interview preparation.",
+      "Incorporates key Industry Insights feature for Users Stay ahead with real-time industry trends, salary data, and market analysis.",
     ],
   },
 ];
@@ -208,58 +212,12 @@ const testimonials = [
 
 const projects = [
   {
-    name: "StockPilot",
+    name: "Review-Sense",
     description:
-      "Inventory & Stock Management Solution. A Web-based platform that allows Businesses to control and manage products in the warehouse in real time and to make it easier to scale and monitor business",
+      "An AI-powered review summarization solution with real-time analytics dashboards, and comprehensive admin panel.",
     tags: [
       {
         name: "react",
-        color: "blue-text-gradient",
-      },
-      {
-        name: "mongodb",
-        color: "green-text-gradient",
-      },
-      {
-        name: "tailwind",
-        color: "pink-text-gradient",
-      },
-      {
-        name: "Express",
-        color: "blue-text-gradient",
-      },
-    ],
-    image: carrent,
-    source_code_link: "https://github.com/",
-  },
-  {
-    name: "Job IT",
-    description:
-      "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
-    tags: [
-      {
-        name: "react",
-        color: "blue-text-gradient",
-      },
-      {
-        name: "restapi",
-        color: "green-text-gradient",
-      },
-      {
-        name: "scss",
-        color: "pink-text-gradient",
-      },
-    ],
-    image: jobit,
-    source_code_link: "https://github.com/",
-  },
-  {
-    name: "Trip Guide",
-    description:
-      "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
-    tags: [
-      {
-        name: "nextjs",
         color: "blue-text-gradient",
       },
       {
@@ -267,12 +225,66 @@ const projects = [
         color: "green-text-gradient",
       },
       {
-        name: "css",
+        name: "OpenAI API",
         color: "pink-text-gradient",
       },
+      {
+        name: "Express",
+        color: "blue-text-gradient",
+      },
     ],
-    image: tripguide,
-    source_code_link: "https://github.com/",
+    image: reviewSenseEdit,
+    source_code_link: "https://github.com/Oreva-J/review-sense",
+  },
+  {
+    name: "Job AI",
+    description:
+      "A Roburst AI data-driven career guidance system that helps users make updated/informed professional decisions.",
+    tags: [
+      {
+        name: "Next.js",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "Restapi",
+        color: "green-text-gradient",
+      },
+      {
+        name: "Gemini API",
+        color: "pink-text-gradient",
+      },
+      {
+        name: "PostgreSQL",
+        color: "red-text-gradient",
+      },
+    ],
+    image: JobaiShot,
+    source_code_link: "https://github.com/Oreva-J/job-ai",
+  },
+  {
+    name: "ACE-Pharmacy",
+    description:
+      "A Roburts e-commerce web application for pharmacy firm to sell physical products and offer paid consultations with Integrated prescription management system",
+    tags: [
+      {
+        name: "Next.js",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "MongoDB",
+        color: "green-text-gradient",
+      },
+      {
+        name: "Claudinary",
+        color: "pink-text-gradient",
+      },
+      {
+        name: "Clark",
+        color: "blue-text-gradient",
+      },
+    ],
+    image: ACEshot,
+    source_code_link: "https://acepharmacy.vercel.app/",
   },
 ];
 

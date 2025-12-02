@@ -1,7 +1,7 @@
 import { motion } from "framer-motion";
-
 import { styles } from "../styles";
 import { ComputersCanvas } from "./canvas";
+import Typewriter from "typewriter-effect";
 
 const Hero = () => {
   return (
@@ -19,8 +19,20 @@ const Hero = () => {
             Hi, I'm <span className='text-[#915EFF]'>Oreva</span>
           </h1>
           <p className={`${styles.heroSubText} mt-2 text-white-100`}>
-            From coding to cloud, i bridge the gap between  <br className='sm:block hidden' />
-            development and operation- building scalable apps
+            <Typewriter 
+              options={{
+                strings:[
+                  "Engineering the Future — Full-Stack, DevOps, and AI in One",
+                  "Full-Stack + DevOps + AI: Building the Next Generation of Apps",
+                  "I Build Intelligent, Scalable, Cloud-Ready Apps"
+                ],
+                autoStart: true,
+                loop: true,
+                delay: 50,
+                deleteSpeed: 40,
+              }}
+            />
+            
           </p>
         </div>
       </div>

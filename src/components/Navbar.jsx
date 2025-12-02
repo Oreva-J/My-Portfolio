@@ -1,9 +1,9 @@
-import React, { useEffect, useState } from "react";
+import { useEffect, useState } from "react";
 import { Link } from "react-router-dom";
 
 import { styles } from "../styles";
 import { navLinks } from "../constants";
-import { Logo2, menu, close } from "../assets";
+import { menu, close, OcyanLogo } from "../assets";
 
 const Navbar = () => {
   const [active, setActive] = useState("");
@@ -42,7 +42,7 @@ const Navbar = () => {
             window.scrollTo(0, 0);
           }}
         >
-          <img src={Logo2} alt='logo' className='w-14 h-14 object-contain' />
+          <img src={OcyanLogo} alt='logo' className='w-14 h-14 object-contain' />
           <p className='text-white text-[18px] font-bold cursor-pointer flex '>
             Oreva &nbsp;
             <span className='sm:block hidden'> | Technology </span>
